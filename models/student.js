@@ -23,7 +23,8 @@ const studentSchema = new Schema({
     address:{
         type:String,
         required: false
-    }
+    },
+    photo:{type: String},
 
 });
 
